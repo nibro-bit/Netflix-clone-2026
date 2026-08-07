@@ -1,6 +1,7 @@
-import axios from "axios"
+import axios from "axios";
   
-const instances=axios.create({
-    baseUrl="https://api.themoviedb.org/3",
-})
-export default instances;
+const instance = axios.create({
+    baseURL: "https://api.themoviedb.org/3", // Capitalized 'URL' and used ':'
+});
+
+export default instance;
